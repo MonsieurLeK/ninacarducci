@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="./assets/style.css">
 	<meta charset="UTF-8">
 	<script async src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>
 </head>
@@ -66,7 +66,10 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina2.webp">
+		<picture>
+			<source media="(max-width:500px)" srcset="./assets/images/nina2-mobile.webp">
+			<img src="./assets/images/nina2.webp">
+		</picture>
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
@@ -159,7 +162,10 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera2.webp" loading="lazy">
+			<picture>
+				<source media="(max-width:500px)" srcset="./assets/images/camera2-mobile.webp">
+				<img src="./assets/images/camera2.webp" loading="lazy">
+			</picture>
 		</div>
 	</div>
 </div>
