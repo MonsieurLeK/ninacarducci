@@ -46,10 +46,10 @@ body {
 /* code rajouté par dessus bootstrap */
 .carousel {
 	width: 100vw !important;
-	height: 90vh !important;
 }
 .carousel-item {
 	width: 100% !important;
+	height: 100%;
 }
 
 #about {
