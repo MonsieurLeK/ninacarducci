@@ -46,6 +46,7 @@ body {
 /* code rajouté par dessus bootstrap */
 .carousel {
 	width: 100vw !important;
+	min-height: 170px;
 }
 .carousel-item {
 	width: 100% !important;
