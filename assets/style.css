@@ -43,6 +43,13 @@ body {
 .social-link img {
 	width: 20px;
 }
+/* code rajouté par dessus bootstrap */
+.carousel {
+	width: 100vw !important;
+}
+.carousel-item {
+	width: 100% !important;
+}
 
 #about {
 	width: 100vw;
