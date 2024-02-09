@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300&display=swap');
 
 body {
 	max-width: 1920px;
@@ -98,6 +98,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -168,11 +169,13 @@ body {
 .quote__text {
 	font-family: Spectral;
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 300 !important;
+	font-size: 2.5rem;
 
 }
 .quote__author {
 	font-family: Spectral;
+	font-style: normal;
 	font-weight: 800;
 	font-size: 22px;
 }
