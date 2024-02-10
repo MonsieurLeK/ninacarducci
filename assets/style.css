@@ -39,6 +39,10 @@ body {
 	text-decoration: none;
 	color: #000
 }
+.nav a:hover {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
 
 .social-link img {
 	width: 20px;
@@ -126,10 +130,11 @@ body {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
-	border-radius:0 ;
+	border-radius:5px ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -148,6 +153,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -345,6 +351,15 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
+	.nav-link {
+		cursor: default;
+	}
+	.gallery-item {
+		cursor: default;
+	}
+	.quote__text {
+		font-size: 1.5rem;
+	}
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
