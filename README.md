@@ -22,3 +22,5 @@ Compétences développées:
 ------------------------
 
 Lien du site en live: https://monsieurlek.github.io/ninacarducci/
+
+Lien vers le rapport d'optimisation: https://smallpdf.com/fr/file#s=4bc6ff96-c5cc-4fa1-a7d1-ffa6d2294706
